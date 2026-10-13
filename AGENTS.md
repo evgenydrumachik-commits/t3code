@@ -1,3 +1,5 @@
+> **Portfolio policy (owner decision D-045):** For engineering work in this owner-controlled repository, read [Hermes Infra GLOBAL_ENGINEERING_POLICY.md](https://github.com/evgenydrumachik-commits/Hermes-Infra/blob/main/GLOBAL_ENGINEERING_POLICY.md) at task start. Default **FAST** accelerates reversible changes without blanket Issue/PR/review; use **CAREFUL** when concrete safety/data/irreversibility risk exists. **Never enable the Codex provider Fast option.** Coding GPT-6 Luna/native MAX; UI/UX design Claude Sonnet 5.5; T3-first automatic safe fallback. Documentation-only changes may be committed directly. This newer general workflow supersedes older blanket gates, **not** local data, access, source-ownership or safety contracts. Preserve upstream T3 Code architecture and upstream development requirements; this owner-controlled fork's workflow is not an upstream contribution policy.
+
 # T3 Code
 
 T3 Code is a minimal GUI for coding agents. A Node WebSocket server wraps provider CLIs and agents (Codex, Claude Code, Cursor, Grok, OpenCode, Antigravity) and serves web, desktop, and mobile clients.
