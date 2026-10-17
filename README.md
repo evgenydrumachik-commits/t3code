@@ -2,6 +2,8 @@
 
 > **AI coding default (D-053, 2026-10-16):** **Copilot and Codex both use GPT-6 Luna / native MAX** unless the owner explicitly specifies a different model/effort for that task. **No automatic Sol/high, Sonnet, GPT-5.6, or weaker-effort fallback.** Agent instructions: [AGENTS.md](AGENTS.md); [canonical policy](https://github.com/evgenydrumachik-commits/Hermes-Infra/blob/main/GLOBAL_ENGINEERING_POLICY.md).
 
+> **OneDrive:** ChatGPT can use the existing Hermes Mac Bridge/rclone on `hermes` to read and, with explicit exact-file authorization, create or recycle-bin-delete personal OneDrive files (no bulk/sync/purge). [Policy](https://github.com/evgenydrumachik-commits/Hermes-Infra/blob/main/GLOBAL_ENGINEERING_POLICY.md).
+
 T3 Code is an "agent harness control surface". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).
 
 Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity. If they're set up on your computer, T3 Code can control them.
